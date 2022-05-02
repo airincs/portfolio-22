@@ -20,6 +20,10 @@ const Skills: FC = () => {
         <span>Chakra UI</span>
         <span>HTML5</span>
       </div>
+      <p>
+        I also have experience in the backend (mongoose node express) however I
+        am not as proficcient as i am in the front end
+      </p>
     </div>
   );
 };
