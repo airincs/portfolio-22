@@ -6,8 +6,10 @@ import Body from "../components/body/Body";
 
 const Home: NextPage = () => {
   return (
-    <div className="font-custom1 smooth-scroll container mx-auto bg-indigo-200 min-h-screen">
-      <Body />
+    <div>
+      <div className="font-custom1 smooth-scroll container mx-auto bg-zinc-900 text-stone-100 min-h-screen">
+        <Body />
+      </div>
     </div>
   );
 };
