@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Custom-1";
+  src: url("/font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Custom-2";
+  src: url("/font/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "Custom-3";
+  src: url("/font/MPLUSRounded1c-Bold.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
