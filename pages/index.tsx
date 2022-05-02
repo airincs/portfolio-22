@@ -6,7 +6,7 @@ import Body from "../components/body/Body";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="bg-zinc-900">
       <div className="font-custom1 smooth-scroll container mx-auto bg-zinc-900 text-stone-100 min-h-screen">
         <Body />
       </div>

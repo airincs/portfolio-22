@@ -21,6 +21,8 @@ html,
 body {
   padding: 0;
   margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 a {
@@ -31,3 +33,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* ===== Scrollbar CSS ===== */
+/* Code skeleton found from https://codepen.io/stephenpaton-tech/full/JjRvGmY */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #4c4b4d #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #4c4b4d;
+  }
