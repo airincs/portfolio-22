@@ -48,9 +48,9 @@ a {
   }
 
   *::-webkit-scrollbar-track {
-    background: #000000;
+    background: #4c4b4d;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #4c4b4d;
+    background-color: #000000;
   }

@@ -7,7 +7,7 @@ import ProfessionalExperience from "./ProfessionalExperience";
 
 const Body: FC = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center">
       <BodyHeader />
       <Model />
       <About />
