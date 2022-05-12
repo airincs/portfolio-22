@@ -6,7 +6,7 @@ const Skills: FC = () => {
       <p className="font-custom3 text-xl underline decoration-4 underline-offset-8">
         Skills/Technologies
       </p>
-      <div className="grid gap-4 grid-cols-4 grid-row-3 font-custom1 mt-4">
+      <div className="grid gap-4 grid-cols-4 grid-row-3 font-custom1 pt-4">
         <span>React</span>
         <span>TypeScript</span>
         <span>CSS</span>
