@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import TextBlock from "../general/TextBlock";
 
 const ProfessionalExperience: FC = () => {
   return (
@@ -7,17 +8,19 @@ const ProfessionalExperience: FC = () => {
       <p className="font-custom2 text-lg pt-4 underline decoration-1 underline-offset-4 font-black">
         Statistical Consulting
       </p>
-      <p className="font-custom1 pt-4 bg-gradient-to-r from-slate-200 to-slate-300 mt-4 p-4 rounded-2xl shadow-xl shadow-black/25 border-black">
-        During University I studied Statistics with a Data Science focus. One
-        day I had started learning how to web scrape with Python...
-      </p>
+      <TextBlock
+        text={
+          "During University I studied Statistics with a Data Science focus."
+        }
+      />
       <p className="font-custom2 text-lg pt-4 underline decoration-1 underline-offset-4 font-black">
         Pharmacy Work
       </p>
-      <p className="font-custom1 pt-4 bg-gradient-to-r from-slate-200 to-slate-300 mt-4 p-4 rounded-2xl shadow-xl shadow-black/25 border-black">
-        During University I studied Statistics with a Data Science focus. One
-        day I had started learning how to web scrape with Python...
-      </p>
+      <TextBlock
+        text={
+          "During University I studied Statistics with a Data Science focus."
+        }
+      />
     </div>
   );
 };
