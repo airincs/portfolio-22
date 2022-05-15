@@ -2,11 +2,9 @@ import React, { FC } from "react";
 
 const Skills: FC = () => {
   return (
-    <div className="flex flex-col">
-      <p className="font-custom3 text-xl underline decoration-4 underline-offset-8">
-        Skills/Technologies
-      </p>
-      <div className="grid gap-4 grid-cols-4 grid-row-3 font-custom1 pt-4">
+    <div className="flex flex-col items-center bg-gradient-to-r from-slate-100 to-slate-50 p-8 rounded-2xl shadow-inner shadow-black">
+      <p className="font-custom3 text-xl">Skills/Technologies</p>
+      <div className="grid gap-4 grid-cols-4 grid-row-3 font-custom1 mt-4 bg-gradient-to-r from-slate-200 to-slate-300 p-4 rounded-2xl shadow-xl shadow-black/25 border-black">
         <span>React</span>
         <span>TypeScript</span>
         <span>CSS</span>

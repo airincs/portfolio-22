@@ -8,8 +8,8 @@ import ProfessionalExperience from "./ProfessionalExperience";
 const Body: FC = () => {
   return (
     <div className="flex flex-col justify-center gap-y-8">
-      <HomeHeader />
       <HomeModel />
+      <HomeHeader />
       <About />
       <Skills />
       <ProfessionalExperience />
