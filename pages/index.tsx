@@ -11,22 +11,16 @@ import TextHeader from "../components/general/TextHeader";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-gradient-to-tl from-orange-100 to-red-200">
-      <Navbar />
-      <div className="font-custom1 smooth-scroll container mx-auto px-4 md:px-16 min-h-screen overflow-y-auto max-w-4xl">
-        <div className="flex flex-col justify-center gap-y-8">
-          <ModelContainer />
-          <TextHeader title={"Noah Fisher"} text={"Front-End Developer"} />
-          <TextBlock
-            title={"About"}
-            text={
-              "During University I studied Statistics with a Data Science focus. One day I had started learning how to web scrape with Python..."
-            }
-          />
-          <TextBlock title={"Skills"} component={<Skills />} />
-          <ProfessionalExperience />
-        </div>
-      </div>
+    <div className="flex flex-col gap-10">
+      <TextHeader title={"Noah Fisher"} text={"Front-End Developer"} />
+      <TextBlock
+        title={"About"}
+        text={
+          "During University I studied Statistics with a Data Science focus. One day I had started learning how to web scrape with Python..."
+        }
+      />
+      <TextBlock title={"Skills"} component={<Skills />} />
+      <ProfessionalExperience />
     </div>
   );
 };

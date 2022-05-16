@@ -7,7 +7,7 @@ const Navbar: FC = () => {
   const router = useRouter();
 
   return (
-    <div className="h-12 w-full bg-neutral-900 bg-opacity-60 sticky top-0 flex justify-around">
+    <div className="h-12 w-full bg-neutral-900 bg-opacity-60 sticky top-0 flex justify-around z-10">
       <div className="flex justify-around align-center gap-10">
         <NavbarItems
           title="Home"
