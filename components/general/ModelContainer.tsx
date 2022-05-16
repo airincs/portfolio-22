@@ -1,9 +1,8 @@
-import React, { FC } from "React";
 import { Canvas } from "react-three-fiber";
 import Model from "./Model";
 import { OrbitControls } from "@react-three/drei";
 
-const ModelContainer: FC = () => {
+const ModelContainer = () => {
   return (
     <div className="flex items-center justify-center h-64 pt-8">
       <Canvas orthographic camera={{ zoom: 22.5, position: [10, 5, 5] }}>
