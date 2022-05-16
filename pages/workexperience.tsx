@@ -5,7 +5,7 @@ import Link from "next/link";
 import Navbar from "../components/navbar/Navbar";
 import TextHeader from "../components/general/TextHeader";
 
-const Project: NextPage = () => {
+const WorkExperience: NextPage = () => {
   return (
     <div className="bg-gradient-to-tl from-orange-100 to-red-200">
       <Navbar />
@@ -16,4 +16,4 @@ const Project: NextPage = () => {
   );
 };
 
-export default Project;
+export default WorkExperience;

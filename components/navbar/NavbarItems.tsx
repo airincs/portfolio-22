@@ -11,7 +11,7 @@ const NavbarItems = ({ title, source, headerFlag = false }: AppProps) => {
   return (
     <Link href={source}>
       {headerFlag ? (
-        <div className="text-xl underline decoration-2 underline-offset-4 h-full w-50 flex flex-col text-white justify-center cursor-pointer">
+        <div className="text-lg underline decoration-2 underline-offset-4 h-full w-50 flex flex-col text-white justify-center cursor-pointer">
           <span>{title}</span>
         </div>
       ) : (
