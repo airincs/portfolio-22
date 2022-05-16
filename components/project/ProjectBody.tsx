@@ -1,8 +1,6 @@
-import React, { FC } from "react";
-import ReactMarkdown from "react-markdown";
 import TextItem from "../general/TextItem";
 
-const ProjectBody: FC = () => {
+const ProjectBody = () => {
   return (
     <div className="flex flex-col items-center bg-gradient-to-r from-slate-100 to-slate-50 p-2 rounded-2xl shadow-inner shadow-black">
       <div className="bg-gradient-to-r from-slate-200 to-slate-300 p-8 m-2 rounded-2xl shadow-xl shadow-black/25 border-black">

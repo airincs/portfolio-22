@@ -1,4 +1,4 @@
-import React, { FC, Suspense } from "React";
+import React, { FC } from "React";
 import { Canvas } from "react-three-fiber";
 import Model from "./Model";
 import { OrbitControls } from "@react-three/drei";
