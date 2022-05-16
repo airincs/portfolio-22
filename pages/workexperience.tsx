@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import Navbar from "../components/navbar/Navbar";
 import TextHeader from "../components/general/TextHeader";
-import ModelContainer from "../components/general/ModelContainer";
+import MotionContainer from "../components/MotionContainer";
 
 const WorkExperience: NextPage = () => {
-  return <TextHeader title={"Town Crossing"} text={"Showcased Project"} />;
+  return (
+    <MotionContainer>
+      <TextHeader title={"Work Experience"} text={"My Professional History"} />
+    </MotionContainer>
+  );
 };
 
 export default WorkExperience;
