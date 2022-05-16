@@ -9,16 +9,18 @@ import { motion } from "framer-motion";
 const Home: NextPage = () => {
   return (
     <MotionContainer>
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 mb-5">
         <TextHeader title={"Noah Fisher"} text={"Front-End Developer"} />
         <TextBlock
-          title={"About"}
-          text={
-            "During University I studied Statistics with a Data Science focus. One day I had started learning how to web scrape with Python..."
-          }
+          title={"Who Am I?"}
+          text={`I specialize in Front-End Development, specifically with React;
+          however, I am always looking for opportunities to learn! I've graduated University 
+          with a B.S. in Statistics (Data Science focus). While studying Statistics
+          and Data Science in University, I had begun developing a web scraper in Python.
+          In order to use the scraper, I needed to learn basic HTML, which ultimately led to
+          my discovery and love of Web Development.`}
         />
-        <TextBlock title={"Skills"} component={<Skills />} />
-        <ProfessionalExperience />
+        <TextBlock title={"Skills & Technologies"} component={<Skills />} />
       </div>
     </MotionContainer>
   );
