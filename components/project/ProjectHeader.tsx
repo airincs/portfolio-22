@@ -8,7 +8,7 @@ const ProjectHeader: FC = () => {
         href="https://www.towncrossing.dev/"
         className="font-custom3 text-xl mb-2"
       >
-        Visit Town Crossing!
+        Click here to visit Town Crossing!
       </a>
       <a href="https://github.com/airincs/town-crossing-client">
         <ReactMarkdown>
