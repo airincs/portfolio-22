@@ -24,7 +24,7 @@ const WorkExperience: NextPage = () => {
           title={"Statistical Consulting"}
           text={`The University I attended had a well established consulting program for its Statistics
           students. I spent several semesters heavily involved in the program, learning how to work for
-          a client and their needs. One notable client was a PhD candidate and their thesis. Their thesis
+          clients and how to meet their needs. One notable client was a PhD candidate and their thesis. Their thesis
           dealt with an elaborate pharmaceutical study. I led a small team to analyze and write a report
           about the study, which was later used in their thesis.`}
         />
