@@ -1,8 +1,8 @@
 import React from "react";
 
 type AppProps = {
-  title: string;
-  text: string;
+  title?: string;
+  text?: string;
 };
 
 const TextHeader = ({ title, text }: AppProps) => {

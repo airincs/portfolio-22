@@ -1,10 +1,8 @@
 import type { NextPage } from "next";
 import TextBlock from "../components/general/TextBlock";
 import Skills from "../components/text/Skills";
-import ProfessionalExperience from "../components/text/ProfessionalExperience";
 import MotionContainer from "../components/MotionContainer";
 import TextHeader from "../components/general/TextHeader";
-import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +18,13 @@ const Home: NextPage = () => {
           In order to use the scraper, I needed to learn basic HTML, which ultimately led to
           my discovery and love of Web Development.`}
         />
+        <div className="flex flex-col items-center p-4 antialiased tracking-wide shadow-inner shadow-black rounded-2xl bg-gradient-to-r from-slate-100 to-slate-50">
+          <p className="font-custom3 text-2xl animate-bounce">
+            <a href="/NoahFisherResume.pdf" target="_blank">
+              Click for Resume!
+            </a>
+          </p>
+        </div>
         <TextBlock title={"Skills & Technologies"} component={<Skills />} />
       </div>
     </MotionContainer>
