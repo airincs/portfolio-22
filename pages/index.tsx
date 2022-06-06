@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         />
         <div className="flex flex-col items-center p-4 antialiased tracking-wide shadow-inner shadow-black rounded-2xl bg-gradient-to-r from-slate-100 to-slate-50">
           <p className="font-custom3 text-2xl animate-bounce">
-            <a href="/Resume.pdf" target="_blank">
+            <a href="/NFResume.pdf" target="_blank">
               Click for Resume!
             </a>
           </p>
