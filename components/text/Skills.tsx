@@ -37,7 +37,7 @@ const Skills: FC = () => {
           ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
         </ReactMarkdown>
         <ReactMarkdown>
-          ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
+          ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
           ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -53,12 +53,8 @@ const Skills: FC = () => {
           ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
-          ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+          ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
         </ReactMarkdown>
-      </div>
-      <div className="flex justify-center text-center text-sm">
-        While I have experience in using these Back-End technologies, I
-        specialize in Front-End development.
       </div>
     </div>
   );

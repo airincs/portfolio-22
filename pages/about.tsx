@@ -21,7 +21,7 @@ const About: NextPage = () => {
           title={"Personal Interests"}
           text={`
           I greatly enjoy learning in general, whether that be Computer Science related or not! 
-          I've been trying to further understand Back-End Development for the time being. If I'm
+          I've been trying to further understand Data Structures and Algorithms. If I'm
           not on a computer, I'm probably out with friends or lifting weights! 
           `}
         />

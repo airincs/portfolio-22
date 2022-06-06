@@ -2,7 +2,7 @@
 
 Welcome to my portfolio!
 
-This project will tell you about some of my experiences as a developer, and will showcase to you who I am!
+This project will tell you about some of my experiences as a full-stack developer, and will showcase to you who I am!
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)

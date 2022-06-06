@@ -8,10 +8,10 @@ const Home: NextPage = () => {
   return (
     <MotionContainer>
       <div className="flex flex-col gap-10 mb-5">
-        <TextHeader title={"Noah Fisher"} text={"Front-End Developer"} />
+        <TextHeader title={"Noah Fisher"} text={"Software Developer"} />
         <TextBlock
           title={"Who Am I?"}
-          text={`I specialize in Front-End Development, specifically with React;
+          text={`I specialize in Web Development, specifically with React/Django;
           however, I am always looking for opportunities to learn! I've graduated University 
           with a B.S. in Statistics (Data Science focus). While studying Statistics
           and Data Science in University, I had begun developing a web scraper in Python.
