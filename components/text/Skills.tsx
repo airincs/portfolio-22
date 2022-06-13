@@ -15,7 +15,7 @@ const Skills: FC = () => {
           ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
-          ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+          ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
           ![Next
@@ -37,7 +37,7 @@ const Skills: FC = () => {
           ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
         </ReactMarkdown>
         <ReactMarkdown>
-          ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+          ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
           ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -53,7 +53,7 @@ const Skills: FC = () => {
           ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
-          ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+          ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
         </ReactMarkdown>
       </div>
     </div>
