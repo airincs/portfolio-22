@@ -16,7 +16,7 @@ const Navbar: FC = () => {
           headerFlag={router.pathname == "/" ? true : false}
         />
         <NavbarItems
-          title="Project"
+          title="Web Project"
           source="/project"
           headerFlag={router.pathname == "/project" ? true : false}
         />

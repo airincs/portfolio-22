@@ -15,7 +15,7 @@ const Skills: FC = () => {
           ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
-          ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+          ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
         </ReactMarkdown>
         <ReactMarkdown>
           ![Next

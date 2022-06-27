@@ -9,7 +9,10 @@ const Project: NextPage = () => {
   return (
     <MotionContainer>
       <div className="flex flex-col gap-10 mb-5 text-center">
-        <TextHeader title={"Town Crossing"} text={"Showcased Project"} />
+        <TextHeader
+          title={"Town Crossing"}
+          text={"Showcased Full-Stack Web Project"}
+        />
         <ProjectHeader />
         <div>
           <img src="https://github.com/airincs/town-crossing-client/raw/main/src/assets/images/Home.PNG" />
